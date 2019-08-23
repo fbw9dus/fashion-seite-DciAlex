@@ -1,0 +1,136 @@
+@font-face{
+    font-family:'theboldfont';
+    src: url(../fonts/theboldfont/theboldfont.ttf);
+}
+body {
+    background: url('../images/chicago-skyline-engagement_0032.jpg');
+    background-size:cover;
+    margin: 0;
+}
+
+.navigation{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', serif;
+   
+
+}
+.navigation nav{
+    display: flex;
+    
+  
+}
+.navigation p{
+    text-transform: uppercase;
+    margin-right: 3%;
+}
+.text-nav-end{
+    width: 5%;
+    margin-right: 3em;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-transform: uppercase;
+}
+.text-nav{
+    
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .5em;
+    margin:0px;
+    align-items: center;
+    
+ 
+}
+.text-nav h2{
+    display: flex;
+    flex-direction: column;
+    font-family:'theboldfont';
+    font-size: 25px;
+    color: white;
+    margin:0px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.text-nav h3{
+    margin-top: 0px;
+    padding-left: 25px;
+    color: grey;  
+}
+
+
+
+.navigation nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.navigation li{
+    display: flex;
+    padding: 1em;
+}
+.navigation li a{
+    text-decoration: none;
+}
+.Title{
+    
+    text-align: center;
+    width: 950px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(255, 255, 255,0.8);
+    color: black;
+}
+.Title h1{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: black;
+    font-family:'theboldfont';
+    font-size: 70px;
+    letter-spacing: .5em;
+}
+.Title h2{
+    padding-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-size: 40px;
+    margin: auto;
+    
+}
+.Title h3{
+    font-family: 'Merriweather', serif;
+    font-weight: inherit;
+    font-size: 50px;
+    letter-spacing: .2em;
+    margin-top: 0px;
+    margin-bottom: 70px;
+   
+}
+.Title p{
+    font-family: 'Merriweather', serif;
+    letter-spacing: .2em;
+    font-weight: inherit;
+    line-height: 150%;
+    padding-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+.button{
+    height: 40px;
+    width: 250px;
+    border: solid black;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: bold;
+    
+
+}
